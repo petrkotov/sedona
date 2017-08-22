@@ -1,1 +1,1 @@
-# sedonacademy.github.io
+# https://petrkotov.github.io/sedonacademy.github.io/

@@ -1,6 +1,6 @@
 html,
 body {
-  min-width: 960px;
+  min-width: 1200px;
   font-size: 14px;
   line-height: 24px;
   font-family: 'PT Sans', "Arial", sans-serif;
@@ -12,8 +12,9 @@ body {
 
 
 
+
 .container {
-  width: 940px;
+  width: 1200px;
   height: auto;
   margin: 0 auto;
   padding: 0 ;
@@ -21,19 +22,18 @@ body {
 }
 
 header {
+  position: relative;
   margin: 0 auto;
   display: block;
   text-align: center;
   font-weight: 700;
-  min-width: 768px;
-  max-width: 1200px;
+  min-width: 1200px;
   width: 100%;
-  box-shadow:0px 0px 15px 1px rgba(0,1,1,0.1);
 }
 
 .main-header {
-  color: #ffffff;
-  background-color:  #000000;
+  position: absolute;
+  background-color: #ffffff;
   width: 100%;
   min-height: 40px;
 }
@@ -44,7 +44,8 @@ header {
   padding-top: 15px;
   padding-bottom: 15px;
   margin: 0 auto;
-  color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
   text-decoration: none;
   font-size: 14px;
   line-height: 26px;
@@ -74,29 +75,39 @@ header {
   float: left;
 }
 
+
+
 .main-header ul{
   margin: 0;
   padding: 0;
-  list-style: none;
   font-size: 0;
+  list-style: none;
+
 }
 
 
 
 .main-header .logo {
   position: relative;
+
 }
 
 .main-header .logo a {
   position: absolute;
   background: url(../pics/index-logo.png) no-repeat;
-  z-index: 10;
-  height: 60px;
-  width: 100%;
-  top: -33px;
-  left: 30px;
+  height: 50px;
+  width: 160px;
+  top: -34px;
+  left: 51px;
+
 }
 
+.description-background {
+  width: 1200px;
+  height: 768px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
 
 
 
@@ -174,17 +185,4 @@ text-align: center;
   content: "";
   display: table;
   clear: both;
-}
-
-.index-logo {
-  width: 138px;
-  height: 70px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
-}
-
-.title {
-  margin-right: auto;
-  margin-left: auto;
 }

@@ -1,72 +1,62 @@
 .sprite {
     background-image: url(spritesheet.png);
-  
-  background-repeat: no-repeat;
+ 
+   background-repeat: no-repeat;
   
   display: block;
 }
 
-.sprite-crs {
-   
- width: 12px;
-    height: 12px;
+.sprite-copyrigth {
+  
+  width: 113px;
+    height: 39px;
    
  background-position: -10px -10px;
 }
 
-.sprite-f {
-  
-  width: 12px;
-    height: 22px;
-  
-  background-position: -10px -42px;
+
+.sprite-fb {
+    width: 10px;
+   
+ height: 19px;
+    background-position:
+ -10px -69px;
 }
 
-.sprite-f-black {
+.sprite-hmbgr-icon 
+{
+    width: 74px;
+    height: 70px;
  
-   width: 12px;
-    height: 22px;
-   
- background-position: -10px -84px;
+   background-position: -10px -108px;
 }
 
-.sprite-igrm {
-  
-  width: 21px;
-    height: 21px;
-   
- background-position: -10px -126px;
+
+.sprite-hs-icon {
+    width: 75px;
+    height: 72px;
+ 
+   background-position: -10px -198px;
 }
 
-.sprite-igrm-black {
-  
-  width: 21px;
-    height: 21px;
-  
-  background-position: -10px -167px;
+.sprite-prsnt-icon {
+ 
+   width: 64px;
+    height: 76px;
+    background-position: -10px -290px;
 }
 
-.sprite-lgn {
-  
-  width: 18px;
+
+.sprite-twt {
+    width: 17px;
+    height: 15px;
+
+    background-position: -10px -386px;
+}
+
+
+.sprite-yt {
+    width: 20px;
     height: 16px;
-   
- background-position: -10px -208px;
+    background-position: -10px -421px;
 }
-
-.sprite-v {
-  
-  width: 25px;
-    height: 16px;
-   
- background-position: -10px -244px;
-}
-
-.sprite-v-black {
-  
-  width: 25px;
-    height: 16px;
-  
-  background-position: -10px -280px;
-}
-

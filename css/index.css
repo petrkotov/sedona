@@ -8,7 +8,7 @@ body {
   text-transform: uppercase;
   margin: auto 0;
   min-width: 768px;
-  height: 2815px;
+  height: 2770px;
   padding: 0;
   box-shadow: 0 15px 15px 5px rgba(0,1,1,0.2);
 }
@@ -30,35 +30,45 @@ a {
   color: #000000;
 }
 
+ul {
+  padding: 0px;
+}
+
 header {
+  position: relative;
   display: block;
   text-align: center;
   font-weight: 700;
-  background: #fff;
   min-width: 768px;
   z-index: 60;
   position: fixed;
   width: 100%;
+  max-width: 1200px;
+  min-width: 768px;
   box-shadow:0px 0px 15px 1px rgba(0,1,1,0.1);
 }
 
-
-.header-index {
-  position: static;
-  top: -56px;
+.container .header-index {
+  padding: 0;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 768px;
 }
 
+.header-index nav{
+  background: #ffffff;
+  position: relative;
+  margin: auto 0;
 
-.header-index.fixed {
-  position: fixed;
-  box-shadow: 0px 0px 15px 1px rgba(0,1,1,0.1);
-  border-radius: 1px;
+  max-width: 1200px;
+  min-width: 768px;
 }
 
 .menu {
   font-size: 0;
 }
-
 
 .menu a {
   display: inline-block;
@@ -141,7 +151,7 @@ header {
   color: #000000;
   min-height: 226px;
   margin: 0 auto;
-  vertical-align: sub;
+
 }
 
 

@@ -17,7 +17,6 @@ else {
   calendar.classList.add("closed-calendar");
   setTimeout(function() {
     calendar.classList.remove("closed-calendar");}, 600);
-
   checker = 0;
 }
 });

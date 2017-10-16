@@ -11,127 +11,165 @@
     <header class="header-index">
       <nav>
         <ul class="menu">
-          <li><a href="index.html">Информация</a></li>
-          <li><a class="disabled" href="#">Фото и видео</a></li>
+          <li><a class="enabled" href="index.html">Информация</a></li>
+          <li><a class="disabled">Фото и видео</a></li>
           <li class="logo"><a href="index.html"></a></li>
-          <li><a href="#" class="disabled">Карта штата</a></li>
-          <li><a class="active" href="hotels.html">Гостиницы</a></li>
+          <li><a class="disabled">Карта штата</a></li>
+          <li><a class="active">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
 
-      <main>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br><br>
+    <main>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="filter-search">
+        <div class="filter-background">
+        <div class="filter-chekboxes">
+          <div class="left-checkboxes">
+            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Бассейн</label>
+            <label class="icon-check"><input type="checkbox"><span class="checkbox-indicator"></span>Парковка</label>
+            <label class="icon-check"><input type="checkbox"><span class="checkbox-indicator"></span>Wi-Fi</label>
+          </div>
+          <div class="right-checkboxes">
+            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Гостиница</label>
+            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Мотель</label>
+            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Апартаменты</label>
+          </div>
+        </div>
         <div class="filter-range">
           <div class="filter-range-title">Стоимость в сутки (р):</div>
           <div class="price-controls">
             <label class="min-price">от <input type="text" name="min-price" value="0"></label>
             <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
           </div>
-        <div class="range-controls">
-          <div class="scale">
-          <div class="bar"></div>
-          <div class="range-toggle range-toggle-min"></div>
-          <div class="range-toggle range-toggle-max"></div>
-        </div>
-        <button class="btn-transparent" type="submit">Показать</button>
-        </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </main>
-
-      <footer class="main-footer">
-        <div class="footer-hashtag">
-          <a href="https://www.google.com.ua/search?client=opera&hs=ixN&q=%23VISITSEDONA"><br>#VISITSEDONA</a>
-        </div>
-        <div class="footer-social">
-          <a class="social-btn twt" href="https://twitter.com">Twitter</a>
-          <a class="social-btn fb" href="https://facebook.com">Facebook</a>
-          <a class="social-btn yt" href="https://youtube.com">YouTube</a>
-        </div>
-        <div class="footer-copyright clearfix">
-          <span class="copyright-by">WEBSITE BY</span>
-          <a class="copyright-pic" href="#"><img src="icons/copyrigth.png" alt="htmlacademy"></a>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+          <button class="btn-transparent" type="submit">Показать</button>
           </div>
         </div>
-      </footer>
+        </div>
+      </div>
+      <div class="sorting-menu">
+        <div class="sorting-preferences">
+          <h1 class="finded">Найдено: 3<h1>
+          <p class="sorting-title">Сортировка:</p>
+          <ul class="sorting-types">
+            <li class="selected">По цене</li>
+            <li>По типу</li>
+            <li>По рейтингу</li>
+          </ul>
+        </div>
+        <div class="switchers">
+          <span class="icon-up-dir"></span>
+          <span class="icon-down-dir"></span>
+        </div>
+      </div>
 
+      <div class="hotel">
+        <div class="hotel-description">
+          <div class="hotel-description-img">
+            <img src="pics/amara-resort.jpg" alt="Amara resort &amp; Spa">
+          </div>
+          <a class="hotel-title" href="#">Amara resort &amp; Spa</a>
+          <p class="hotel-type">Гостиница</p>
+          <p class="hotel-price">От 3500 Р.</p>
+          <a class="hotel-about" href="#">Подробнее</a>
+          <a class="booking" href="#">Забронировать</a>
+        </div>
+        <div class="hotel-rating">
+          <span class="hotel-star-rating">
+            <p class="icon-star"></p>
+            <p class="icon-star"></p>
+            <p class="icon-star"></p>
+            <p class="icon-star"></p>
+          </span>
+          <span class="hotel-value-rating">Рейтинг: 8,5</span>
+        </div>
+      </div>
+
+
+      <div class="hotel">
+        <div class="hotel-description">
+          <div class="hotel-description-img">
+            <img src="pics/desert-quail.jpg" alt="Desert quail inn">
+          </div>
+          <a class="hotel-title" href="#">Desert quail inn</a>
+          <p class="hotel-type">Мотель</p>
+          <p class="hotel-price">От 2000 Р.</p>
+          <a class="hotel-about" href="#">Подробнее</a>
+          <a class="booking" href="#">Забронировать</a>
+        </div>
+        <div class="hotel-rating">
+          <span class="hotel-star-rating">
+            <p class="icon-star"></p>
+            <p class="icon-star"></p>
+          </span>
+          <span class="hotel-value-rating">Рейтинг: 8,9</span>
+        </div>
+      </div>
+
+
+      <div class="hotel">
+        <div class="hotel-description">
+          <div class="hotel-description-img">
+            <img src="pics/villas-at-poco.jpg" alt="Villas at poco diablo">
+          </div>
+          <a class="hotel-title" href="#">Villas at poco diablo</a>
+          <p class="hotel-type">Апартаменты</p>
+          <p class="hotel-price">От 4000 Р.</p>
+          <a class="hotel-about" href="#">Подробнее</a>
+          <a class="booking" href="#">Забронировать</a>
+        </div>
+        <div class="hotel-rating">
+          <span class="hotel-star-rating">
+            <p class="icon-star"></p>
+            <p class="icon-star"></p>
+            <p class="icon-star"></p>
+          </span>
+          <span class="hotel-value-rating">Рейтинг: 9,2</span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+<p>#&0x2611;</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    </main>
+    <footer class="main-footer">
+      <div class="footer-hashtag">
+        <a class="visit-href" href="https://www.google.com.ua/search?client=opera&hs=ixN&q=%23VISITSEDONA"><br>#VISITSEDONA</a>
+      </div>
+      <div class="footer-social">
+        <a class="social-btn icon-twitter" href="https://twitter.com"></a>
+        <a class="social-btn icon-facebook" href="https://facebook.com"></a>
+        <a class="social-btn icon-youtube" href="https://youtube.com"></a>
+      </div>
+      <div class="footer-copyright clearfix">
+        <span class="copyright-by">WEBSITE BY</span>
+        <a class="copyright-pic" href="#">htmlacademy</a>
+      </div>
+    </footer>
   </body>
 </html>

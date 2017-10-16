@@ -13,10 +13,10 @@ if (checker == 0) {
 else {
   event.preventDefault();
   setTimeout(function() {
-  calendar.classList.remove("calendar-window-show");}, 600);
+  calendar.classList.remove("calendar-window-show");}, 400);
   calendar.classList.add("closed-calendar");
   setTimeout(function() {
-    calendar.classList.remove("closed-calendar");}, 600);
+    calendar.classList.remove("closed-calendar");}, 400);
   checker = 0;
 }
 });

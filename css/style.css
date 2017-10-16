@@ -62,8 +62,8 @@ body {
  /* "" */
 .icon-minus::before { content: "\e802"; }
  /* "" */
-.icon-youtube::before { content: "\f39e"; } /* "" */
-
+.icon-youtube::before { content: "\f39e"; }
+/* "" */
 
 html, body, .container {
     min-height: 100%;
@@ -842,4 +842,21 @@ header {
 
 .kids-amount-input .icon-plus:active {
   color: #81b3d2;
+}
+
+.icon-check input[type="checkbox"] {
+  display: none;
+}
+
+
+.icon-check input[type="checkbox"] + .checkbox-indicator::before {
+  font-family: "symbols-sedona";
+  content: "\2610";
+  font-size: 21px;
+}
+
+.icon-check input[type="checkbox"]:checked + .checkbox-indicator::before {
+  font-family: "symbols-sedona";
+  content: "\2611";
+  font-size: 21px;
 }

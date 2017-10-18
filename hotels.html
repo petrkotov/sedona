@@ -19,73 +19,73 @@
         </ul>
       </nav>
     </header>
-
     <main>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <div class="filter-search">
-        <div class="filter-background">
-        <div class="filter-chekboxes">
-          <div class="left-checkboxes">
-            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Бассейн</label>
-            <label class="icon-check"><input type="checkbox"><span class="checkbox-indicator"></span>Парковка</label>
-            <label class="icon-check"><input type="checkbox"><span class="checkbox-indicator"></span>Wi-Fi</label>
+      <div class="filter-background">
+        <img src="pics/filter-background.jpg">
+          <div class="filter-checkboxes">
+            <form class="left-checkboxes" action="#" method="get">
+              <p class="title-checkboxes">Инфраструктура:</p>
+              <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Бассейн</label>
+              <label class="icon-check"><input type="checkbox"><span class="checkbox-indicator"></span>Парковка</label>
+              <label class="icon-check"><input type="checkbox"><span class="checkbox-indicator"></span>Wi-Fi</label>
+            </form>
+            <div class="pillow"></div>
+            <form class="right-checkboxes" action="#" method="get">
+              <p class="title-checkboxes">Тип жилья:</p>
+              <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Гостиница</label>
+              <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Мотель</label>
+              <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Апартаменты</label>
+            </form>
           </div>
-          <div class="right-checkboxes">
-            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Гостиница</label>
-            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Мотель</label>
-            <label class="icon-check"><input type="checkbox" checked><span class="checkbox-indicator"></span>Апартаменты</label>
-          </div>
-        </div>
-        <div class="filter-range">
-          <div class="filter-range-title">Стоимость в сутки (р):</div>
-          <div class="price-controls">
-            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-          </div>
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
-              <div class="range-toggle range-toggle-min"></div>
-              <div class="range-toggle range-toggle-max"></div>
+          <div class="filter-range-margin-container">
+            <div class="filter-range">
+              <div class="filter-range-margin-container">
+                <div class="filter-range-title">Стоимость в сутки (р):</div>
+                <div class="price-controls">
+                  <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                  <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                </div>
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                    <div class="range-toggle range-toggle-min"></div>
+                    <div class="range-toggle range-toggle-max"></div>
+                  </div>
+                <button class="btn-transparent" type="submit">Показать</button>
+                </div>
+              </div>
             </div>
-          <button class="btn-transparent" type="submit">Показать</button>
+          </div>
+      </div>
+        <div class="sorting-menu clearfix">
+          <div class="sorting-preferences">
+            <p class="finded">Найдено: 3</p>
+            <p class="sorting-title">Сортировка:</p>
+            <ul class="sorting-types">
+              <li><a class="selected" href="#">По цене</a></li>
+              <li><a class="unselected"href="#">По типу</a></li>
+              <li><a class="unselected"href="#">По рейтингу</a></li>
+            </ul>
+          </div>
+          <div class="switchers">
+            <a href="#" class="icon-up-dir"></a>
+            <a href="#" class="icon-down-dir"></a>
           </div>
         </div>
-        </div>
-      </div>
-      <div class="sorting-menu">
-        <div class="sorting-preferences">
-          <h1 class="finded">Найдено: 3<h1>
-          <p class="sorting-title">Сортировка:</p>
-          <ul class="sorting-types">
-            <li class="selected">По цене</li>
-            <li>По типу</li>
-            <li>По рейтингу</li>
-          </ul>
-        </div>
-        <div class="switchers">
-          <span class="icon-up-dir"></span>
-          <span class="icon-down-dir"></span>
-        </div>
-      </div>
-
-      <div class="hotel">
+      <div class="hotel clearfix">
         <div class="hotel-description">
           <div class="hotel-description-img">
             <img src="pics/amara-resort.jpg" alt="Amara resort &amp; Spa">
           </div>
           <a class="hotel-title" href="#">Amara resort &amp; Spa</a>
-          <p class="hotel-type">Гостиница</p>
-          <p class="hotel-price">От 3500 Р.</p>
-          <a class="hotel-about" href="#">Подробнее</a>
-          <a class="booking" href="#">Забронировать</a>
+          <div class="hotel-info">
+            <p>Гостиница</p>
+            <p>От 3500 Р.</p>
+          </div>
+          <div class="hotel-buttons">
+            <a class="hotel-about" href="#">Подробнее</a>
+            <a class="booking" href="#">Забронировать</a>
+          </div>
         </div>
         <div class="hotel-rating">
           <span class="hotel-star-rating">
@@ -97,18 +97,20 @@
           <span class="hotel-value-rating">Рейтинг: 8,5</span>
         </div>
       </div>
-
-
-      <div class="hotel">
+      <div class="hotel clearfix">
         <div class="hotel-description">
           <div class="hotel-description-img">
             <img src="pics/desert-quail.jpg" alt="Desert quail inn">
           </div>
           <a class="hotel-title" href="#">Desert quail inn</a>
-          <p class="hotel-type">Мотель</p>
-          <p class="hotel-price">От 2000 Р.</p>
+          <div class="hotel-info">
+            <p>Мотель</p>
+            <p>От 2000 Р.</p>
+          </div>
+        <div class="hotel-buttons">
           <a class="hotel-about" href="#">Подробнее</a>
           <a class="booking" href="#">Забронировать</a>
+            </div>
         </div>
         <div class="hotel-rating">
           <span class="hotel-star-rating">
@@ -118,18 +120,20 @@
           <span class="hotel-value-rating">Рейтинг: 8,9</span>
         </div>
       </div>
-
-
-      <div class="hotel">
+      <div class="hotel clearfix">
         <div class="hotel-description">
           <div class="hotel-description-img">
             <img src="pics/villas-at-poco.jpg" alt="Villas at poco diablo">
           </div>
           <a class="hotel-title" href="#">Villas at poco diablo</a>
-          <p class="hotel-type">Апартаменты</p>
-          <p class="hotel-price">От 4000 Р.</p>
-          <a class="hotel-about" href="#">Подробнее</a>
-          <a class="booking" href="#">Забронировать</a>
+          <div class="hotel-info">
+            <p>Апартаменты</p>
+            <p>От 4000 Р.</p>
+          </div>
+          <div class="hotel-buttons">
+            <a class="hotel-about" href="#">Подробнее</a>
+            <a class="booking" href="#">Забронировать</a>
+          </div>
         </div>
         <div class="hotel-rating">
           <span class="hotel-star-rating">
@@ -140,22 +144,6 @@
           <span class="hotel-value-rating">Рейтинг: 9,2</span>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-<p>#&0x2611;</p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
     </main>
     <footer class="main-footer">
       <div class="footer-hashtag">

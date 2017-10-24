@@ -1,5 +1,6 @@
 html,
 body {
+  width: 100%;
   font-size: 14px;
   line-height: 24px;
   font-family: 'PT Sans', sans-serif;
@@ -7,9 +8,8 @@ body {
   color: #000000;
   text-transform: uppercase;
   margin: auto 0;
-  min-width: 768px;
   padding: 0;
-  box-shadow: 0 0px 15px 5px rgba(0,1,1,0.2);
+
 }
 
 ::-ms-clear {
@@ -65,10 +65,6 @@ body {
 .icon-youtube::before { content: "\f39e"; }
 /* "" */
 
-html, body, .container {
-    min-height: 100%;
-}
-
 .container {
   position: relative;
   width: 100%;
@@ -77,6 +73,19 @@ html, body, .container {
   margin: 0 auto;
   padding: 0;
   left: 0px;
+  box-shadow: 0 0px 15px 5px rgba(0,1,1,0.2);
+}
+
+.container-single {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  min-width: 768px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  left: 0px;
+  box-shadow: 0 0px 15px 5px rgba(0,1,1,0.2);
 }
 
 a {
@@ -93,9 +102,8 @@ header {
   display: block;
   text-align: center;
   font-weight: 700;
-  min-width: 768px;
   z-index: 60;
-  position: fixed;
+
   width: 100%;
   max-width: 1200px;
   min-width: 768px;
@@ -303,7 +311,7 @@ header {
 .container .places-2 .features-picture {
   display: inline-block;
   float: left;
-  width: 66.6%;
+  width: 66.601%;
   height: 256px;
   overflow: hidden;
 }
@@ -356,6 +364,21 @@ header {
   padding-top: 17px;
   overflow: hidden;
   background-color: rgba(256, 256, 256, 0.91);
+}
+
+.main-footer-single {
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ width: 100%;
+ min-width: 768px;
+ max-width: 1200px;
+ height: 123px;
+ z-index: 2;
+ padding-top: 17px;
+ overflow: hidden;
+ background-color: rgba(256, 256, 256, 0.91);
+ box-shadow: 0 0px 10px 1px rgba(0,1,1,0.1);
 }
 
 .main-footer a{
@@ -617,11 +640,11 @@ margin-left: -35px;
 .calendar-button {
   display: block;
   margin: 0 auto;
-  font-size: 21px;
-  line-height: 26px;
+
   text-align: center;
   font-weight: normal;
-  padding-top: 30px;
+  padding-top: 10px;
+    padding-bottom: 10px;
   width: 568px;
   height: 58px;
   background-color: #766357;
@@ -652,6 +675,21 @@ margin-left: -35px;
   box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
 
+.calendar-window-single {
+  display: block;
+  position: absolute;
+  top: 50px;
+  font-weight: 700;
+  left: 50%;
+  margin-left: -284px;
+  padding-top: 26px;
+  width: 568px;
+  height: 365px;
+  z-index: 1;
+  background-color: #ffffff;
+
+}
+
 .calendar-window-show{
   display: block;
 }
@@ -669,6 +707,7 @@ margin-left: -35px;
   margin: 0 auto;
   padding-top: 3px;
   margin-top: 25px;
+  margin-left: 7px;
   background-color: #81b3d2;
   color: #ffffff;
   cursor: pointer;
@@ -737,7 +776,8 @@ margin-left: -35px;
 .adults-amount-input {
   position: relative;
   display: inline-block;
-  width: 260px;
+  width: 258px;
+  margin-right: 2px;
 }
 
 .date-in {
@@ -882,9 +922,7 @@ margin-left: -35px;
 
 .filter-background {
   position: relative;
-  min-width: 768px;
-  max-width: 1200px;
-  height: 279px;
+  height: 278px;
   overflow: hidden;
 }
 
@@ -972,12 +1010,14 @@ margin-left: -35px;
 }
 
 .switchers {
+  position: relative;
+  right: 30px;
   display: inline-block;
   float: right;
-  width: 22%;
+  width: 10%;
   font-size: 24px;
   margin-top: 31px;
-  margin-right: -25px;
+
 }
 
 .icon-up-dir {

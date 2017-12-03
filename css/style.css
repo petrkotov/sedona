@@ -428,6 +428,14 @@ header {
   background-color: #81b3d2;
 }
 
+.social-btn:first-child {
+  margin-right: 3px;
+}
+
+.social-btn:last-child {
+  margin-right: 0;
+}
+
 .social-btn:hover {
   background-color: #669ec0;
 }
